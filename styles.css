@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input, button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+#linksList {
+    margin-top: 15px;
+}
+
+.link-item {
+    background: white;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
