@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "LinkLater – Smart Bookmark Manager",
+    "version": "1.0",
+    "description": "Save links with reminders, organize via tags, and get local notifications.",
+    "permissions": [
+      "storage",
+      "notifications"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
